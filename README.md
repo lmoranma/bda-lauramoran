@@ -1,9 +1,9 @@
-##README
+### README
 
-##Idea
+## Idea
 Seleccionar principales zonas turísticas de Madrid para medir distancias entre estas y los apartamentos de Airbnb. Seleccionar aquellos a los que se les pueda incrementar el precio por buena ubicación (buena ubicación = +demanda = +comisión para Airbnb
 
-Estrategia
+## Estrategia
 Se enviará un reporte mensual en el cual se seleccionarán aquellos pisos a menos de 500m de las principales zonas turísticas de Madrid. Esto indicará que la ubicación es apta para poder ir a pie. Para ello, se utilizarán las herramientas disponibles en la nube (Google Cloud). Posteriormente, y fuera de Cloud, se avisará a los anunciantes de que sus pisos son aptos para una subida de precios.
 Arquitectura
 Arquitectura en Google Cloud con scrappy, Google Cloud storage, Google Cloud dataproc, Hive.
