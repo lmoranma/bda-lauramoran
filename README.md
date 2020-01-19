@@ -1,4 +1,4 @@
-# Practica BDA Laura
+## Practica BDA Laura
 
 ## Idea
 Seleccionar principales zonas turísticas de Madrid para medir distancias entre estas y los apartamentos de Airbnb. Seleccionar aquellos a los que se les pueda incrementar el precio por buena ubicación (buena ubicación = +demanda = +comisión para Airbnb
