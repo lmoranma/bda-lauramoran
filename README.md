@@ -40,7 +40,7 @@ Una vez levantado el cluster y para procesar la información:
 
 •	Con el output generado y ya fuera de Google Cloud, se haría una comunicación masiva vía email y SMS a los anunciantes. En el caso de que se incrementen los precios de los apartamentos, se incrementaría también la comisión que recibe Airbnb. Resultado: incremento de los beneficios.
 
-## Desarrollo (hay una PPT con pantallazos de los pasos necesarios para el desarrollo de la práctica)
+## Desarrollo (incluyo una PPT con pantallazos de los pasos necesarios para el desarrollo de la práctica)
 #### 1.	Creación del Segmento 
 •	Subida del fichero a mano
 
