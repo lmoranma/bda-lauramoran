@@ -30,7 +30,7 @@ Una vez levantado el cluster y para procesar la información:
 
 •	Creación de la tabla civitatis + carga datos del .csv (crawl.csv) a Hive: Se haría con “load data inpath”. Coge los datos del Google storage para cargarlos el Hive.
 
-•	Una vez tenemos las dos tablas creadas nos conectamos a Hive desde el SSH de la rama master del clúster con Beeline (JDBC) para realizar las consultas. 
+•	Una vez tenemos las dos tablas creadas, nos conectamos desde la rama master via SSH a Beeline (JDBC) para realizar las consultas. 
 
 •	Después, haríamos un Join que nos permita calcular las distancias entre un punto y otro. Los pisos de Airbnb y las zonas turísticas de Madrid.
 
