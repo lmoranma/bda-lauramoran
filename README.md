@@ -43,46 +43,41 @@ Una vez levantado el cluster y para procesar la información:
 ## Desarrollo
 #### 1.	Creación del Segmento 
 •	Subida del fichero a mano
+
 •	El crawler entra de forma automática tras activar la función
  
-
-2.	Despliegue la Cloud Function 
+#### 2.	Despliegue la Cloud Function 
 https://europe-west1-big-data-architectura-laura.cloudfunctions.net/function-civ
  
- 
-3.	Levantar el cluster
+#### 3.	Levantar el cluster
+•	Escogemos el segmento ya creado con los datos
 
-  •	Escogemos el segmento ya creado con los datos.
+•	Resultado cluster configurado
  
-  •	Resultado cluster configurado
- 
-4.	Tabla Airbnb
- 
-  •	Create table:
- 
-  •	Load data del Google storage:
+#### 4.	Tabla Airbnb
+•	Create table
+  
+•	Load data del Google storage
 
-  •	Dentro de la rama master nos conectamos via SSH a Beeline para realizar consultas: 
+•	Dentro de la rama master nos conectamos via SSH a Beeline para realizar consultas
  
-5.	Tabla civitatis 
+#### 5.	Tabla civitatis 
+•	Create table:
+ 
+•	Load data del Google storage
+ 
+•	Contenido de la tabla
+ 
+•	Ambas tablas en Hive
+ 
+#### 6.	(Extra) Procesamiento de datos con Wordcount
+•	De esta forma se guardaría el resultado en el hdfs y no en el segmento
+ 
+•	También lo podemos guardar en el mismo segmento si lo preferimos
 
-  •	Create table:
+•	Fichero output del Google storage
  
-  •	Load data del Google storage:
- 
-  •	Contenido de la tabla
- 
-  •	Ambas tablas en Hive
- 
-6.	(Extra) Procesamiento de datos con Wordcount
-
-  •	De esta forma se guardaría el resultado en el hdfs y no en el segmento
- 
-  •	También lo podemos guardar en el mismo segmento si lo preferimos
-
-  •	Fichero output del Google storage
- 
-  •	Output: fichero final procesado
+•	Output: fichero final procesado
  
 ## Diagrama: 
 https://docs.google.com/drawings/d/1J6fkWkJZ9iG3tmM_QKqH9VDGb7dQMmw_cauDeh1plKw/edit?usp=sharing
