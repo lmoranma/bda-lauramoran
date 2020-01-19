@@ -40,7 +40,7 @@ Una vez levantado el cluster y para procesar la información:
 
 •	Con el output generado y ya fuera de Google Cloud, se haría una comunicación masiva vía email y SMS a los anunciantes. En el caso de que se incrementen los precios de los apartamentos, se incrementaría también la comisión que recibe Airbnb. Resultado: incremento de los beneficios.
 
-## Desarrollo (incluyo una PPT con pantallazos de los pasos necesarios para el desarrollo de la práctica)
+## Desarrollo (incluyo una PPT con pantallazos de los pasos necesarios para el desarrollo de la práctica. También incluídos aquí)
 #### 1.	Creación del Segmento 
 •	Subida del fichero a mano
 
@@ -55,23 +55,23 @@ https://europe-west1-big-data-architectura-laura.cloudfunctions.net/function-civ
 •	Resultado cluster configurado
  
 #### 4.	Tabla Airbnb en Hive
-•	Create table
+•	Create table Airbnb
   
 •	Load data del Google storage
 
 •	Dentro de la rama master nos conectamos via SSH a Beeline para realizar consultas
  
 #### 5.	Tabla civitatis en Hive
-•	Create table
+•	Create table civitatis
  
 •	Load data del Google storage
  
-•	Contenido de la tabla
+•	Se muestra el contenido de la tabla
  
 •	Ambas tablas en Hive
  
 #### 6.	(Extra) Procesamiento de datos con Wordcount
-•	De esta forma se guardaría el resultado en el hdfs y no en el segmento
+•	Procesamiento del wordcount guardado en el hdfs y no en el segmento
  
 •	También lo podemos guardar en el mismo segmento si lo preferimos
 
