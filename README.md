@@ -25,7 +25,7 @@ Se levantará el cluster en Google Cloud también de forma manual cada vez que s
 
 Una vez levantado el cluster y para procesar la información:
 
-# Ejecución
+#### Ejecución
 •	Creación de la tabla Airbnb + carga datos del .csv (Airbnb-listings.csv) a Hive: Se haría con “load data inpath”. Coge los datos del Google storage para cargarlos el Hive.
 
 •	Creación de la tabla civitatis + carga datos del .csv (crawl.csv) a Hive: Se haría con “load data inpath”. Coge los datos del Google storage para cargarlos el Hive.
