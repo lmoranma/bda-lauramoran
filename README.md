@@ -53,6 +53,7 @@ https://europe-west1-big-data-architectura-laura.cloudfunctions.net/function-civ
  
  
 3.	Levantar el cluster
+
   •	Escogemos el segmento ya creado con los datos.
  
   •	Resultado cluster configurado
